@@ -1,0 +1,34 @@
+body{
+  background-color: aqua;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  color: blueviolet;
+}
+carrocel{
+  width: 560;
+  height: 315;
+  position: relative;
+}
+.conteiner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transition: transfom 0.5s ease-in-out;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide iframe{
+  
+  object-fit: cover;
+}

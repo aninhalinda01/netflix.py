@@ -1,0 +1,55 @@
+*{
+ margin: 0%;
+ padding: 0%;
+}
+
+body{
+  background-color: gray;
+  margin: 10px;
+
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  color: blueviolet;
+}
+#janela {
+  width: 1120px; /* para mostrar 2 vídeos de 560px cada */
+  overflow: hidden;
+  margin: auto;
+  margin-top: 200px;
+}
+
+#filmes {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+iframe {
+  flex-shrink: 0;
+  width: 560px;
+  height: 315px;
+}
+.bntEsquerda {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.bntDireita{
+  position: absolute;
+  top: 50%;
+  margin-left: 1800px;
+  transform: translateY(-50%);
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  font-size: 13px;
+  cursor: pointer;
+}

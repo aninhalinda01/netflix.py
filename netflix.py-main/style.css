@@ -4,9 +4,18 @@
 }
 
 body{
-  background-color: gray;
+  background-color: rgb(77, 8, 77);
   margin: 10px;
 
+}
+.link{
+  color: blueviolet;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 .title{
   text-align: center;
@@ -15,7 +24,7 @@ body{
   color: blueviolet;
 }
 #janela {
-  width: 1120px; /* para mostrar 2 vídeos de 560px cada */
+  width: 1320px; /* para mostrar 2 vídeos de 560px cada */
   overflow: hidden;
   margin: auto;
   margin-top: 200px;
@@ -29,6 +38,7 @@ iframe {
   flex-shrink: 0;
   width: 560px;
   height: 315px;
+  margin-left: 15px;
 }
 .bntEsquerda {
   position: absolute;
@@ -53,3 +63,4 @@ iframe {
   font-size: 13px;
   cursor: pointer;
 }
+
